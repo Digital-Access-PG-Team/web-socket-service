@@ -4,6 +4,7 @@ import { Server } from "socket.io";
 import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
+import "dotenv/config";
 
 import socketHandler from "./handlers/socketHandler.js";
 import httpRoutes from "./routes/httpRoutes.js";
